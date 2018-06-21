@@ -3,10 +3,30 @@ body, html {
     margin: 0;
 }
 
-.bk{
-    background-image: url(../assets/images/Lyft_Brand.png);
- height: 100%;
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
+/* splash */
+
+#bk-splash {
+    background-image: url(../assets/images/splash.gif);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* index */
+
+.btn-lg{
+    background-color: #CE0B8C;
+    color: white;
+}
+
+.logo-blue{
+    width: 100%;
+    position: relative;
+    top:5vh;
+}
+
+.buttons{
+    position: relative;
+    top: 80vh;
 }
