@@ -28,5 +28,5 @@ body, html {
 
 .buttons{
     position: relative;
-    top: 80vh;
+    bottom: 0;
 }
