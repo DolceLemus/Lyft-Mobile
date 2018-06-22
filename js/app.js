@@ -4,6 +4,8 @@ $(document).ready(function() {
         $('#bk-splash').fadeOut();
         $("#main-index").show();
     }, 5000);
+    $("#btn-next-asknumber").click(msgNumber);
+    $("#btn-next-valid").click(compGenNumber);
 });
 
 
@@ -34,16 +36,10 @@ function msgNumber (){
 var newNumberRandom = genNmber();
 swal("Tu codigo de validación es" + newNumberRandom).then(function(){
     window.location = "validnumber.html"; //?code = newNumberRandom
+
 });
 
 }
-
-$(document).ready(function() {
-    $("#btn-next-asknumber").click(msgNumber);
-    $("#btn-next-valid").click(compGenNumber);
-
-});
-
 // comprobacion
 function compGenNumber(newNumber) {
     var firstNumber = 0;
