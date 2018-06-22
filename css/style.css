@@ -16,17 +16,39 @@ body, html {
 /* index */
 
 .btn-lg{
-    background-color: #CE0B8C;
+    background-color: #E40B8C;
     color: white;
+    position: relative;
+    bottom: 0;
+    margin-bottom: 2em;
+}
+
+.buttons{
+    position: relative;
+    top: 30vh;
 }
 
 .logo-blue{
     width: 100%;
     position: relative;
-    top:5vh;
+    top:10vh;
 }
 
-.buttons{
-    position: relative;
-    bottom: 0;
+/* ask_number */
+
+.fa-angle-left  {
+    color: rgb(0,180,174);
+    font-size: 2em;
+}
+
+.logo-pink{
+    height: 13vh;
+}
+
+
+/* valid_number */
+#number-valid{
+    border: none;
+    background-color:rgb(0,180,174,0.1);
+    margin-left: .2em;
 }
