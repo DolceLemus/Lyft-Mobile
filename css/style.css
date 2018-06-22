@@ -15,12 +15,23 @@ body, html {
 
 /* index */
 
-.btn-lg{
+.btn-login,.btn-sign{
     background-color: #E40B8C;
     color: white;
-    position: relative;
+
+}
+
+.next{
+    background-color: #E40B8C;
+    color: white;
+    position: absolute;
     bottom: 0;
-    margin-bottom: 2em;
+    margin-bottom: .5em;
+}
+
+.btn-lg:hover{
+    color: white;
+    text-decoration: none;
 }
 
 .buttons{
